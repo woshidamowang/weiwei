@@ -17,5 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"陶大爷");
+    NSLog(@"aaaha");
 }
 @end
