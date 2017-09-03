@@ -15,6 +15,7 @@
 		BC64B65D1F5BAF74009FFB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC64B65B1F5BAF74009FFB19 /* LaunchScreen.storyboard */; };
 		BC64B6681F5BAF74009FFB19 /* weiweiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64B6671F5BAF74009FFB19 /* weiweiTests.m */; };
 		BC64B6731F5BAF74009FFB19 /* weiweiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64B6721F5BAF74009FFB19 /* weiweiUITests.m */; };
+		BC64B6821F5BB529009FFB19 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64B6811F5BB529009FFB19 /* dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BC64B66E1F5BAF74009FFB19 /* weiweiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiweiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC64B6721F5BAF74009FFB19 /* weiweiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiweiUITests.m; sourceTree = "<group>"; };
 		BC64B6741F5BAF74009FFB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC64B6801F5BB529009FFB19 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		BC64B6811F5BB529009FFB19 /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BC64B6511F5BAF74009FFB19 /* AppDelegate.m */,
 				BC64B6531F5BAF74009FFB19 /* ViewController.h */,
 				BC64B6541F5BAF74009FFB19 /* ViewController.m */,
+				BC64B6801F5BB529009FFB19 /* dog.h */,
+				BC64B6811F5BB529009FFB19 /* dog.m */,
 				BC64B6561F5BAF74009FFB19 /* Main.storyboard */,
 				BC64B6591F5BAF74009FFB19 /* Assets.xcassets */,
 				BC64B65B1F5BAF74009FFB19 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				BC64B6551F5BAF74009FFB19 /* ViewController.m in Sources */,
 				BC64B6521F5BAF74009FFB19 /* AppDelegate.m in Sources */,
+				BC64B6821F5BB529009FFB19 /* dog.m in Sources */,
 				BC64B64F1F5BAF74009FFB19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +520,7 @@
 				BC64B6791F5BAF74009FFB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC64B67A1F5BAF74009FFB19 /* Build configuration list for PBXNativeTarget "weiweiTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				BC64B67C1F5BAF74009FFB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC64B67D1F5BAF74009FFB19 /* Build configuration list for PBXNativeTarget "weiweiUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				BC64B67F1F5BAF74009FFB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
